@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    >
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <title>Talel Kbaier</title>
+
+    <!--
+    - favicon
+  -->
+  <link rel="icon" href="./assets/images/talel.jpg" type="image/jpg">
+
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar style="     ">
+      <div class="sidebar-info"> 
+        <div class="download-cv">
+          <a href="./assets/cv/Talel_Kbaier_CV.pdf" class="btn btn-primary rounded-pill shadow" style="
+              background-color: #cc9e49;
+              border: none;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              cursor: pointer;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              padding: 8px 16px;
+              color: white;
+            " download="Talel_Kbaier_CV.pdf" target="_blank">
+            Télécharger CV (PDF)
+          </a>
+        </div>
+        
+        <figure class="avatar-box" style="width: 150px; height: 150px ; border-radius: 50%;  ">
+          <img src="./assets/images/talelPic.jpg" alt="Talel Kbaier" style="width: 100%; height: auto; border-radius: 50%;" />
+        </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Talel Kbaier">Talel Kbaier</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Voir Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:k.talel99@gmail.com" class="contact-link"
+                  >k.talel99@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Téléphone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >(+216) 20887855</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Date de naissance</p>
+
+                <time datetime="1982-06-23">Février 17, 1999</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Localisation</p>
+
+                <address>Tunis, Omrane Supérerieur</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://www.facebook.com/Talel.Kb" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/talel-kb/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/talel_kb/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>À propos</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resumé</button>
+            </li>
+            
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Compétences</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projets</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+
+            <li class="navbar-item">
+              <a href="https://calendly.com/talel_kb" target="_blank" class="navbar-link" rel="noopener noreferrer">Fixer un entretien </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="à propos">
+          <header>
+            <h2 class="h2 article-title">À propos</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              En tant qu'étudiant engagé dans le vaste champ de l'informatique, je m'applique à développer une compréhension approfondie des technologies qui façonnent notre monde numérique. Mon parcours me permet d'aborder avec agilité les divers aspects de l'innovation technologique, équilibrant une solide formation académique avec une application pratique dans l'industrie du logiciel.
+            </p>
+          
+            <p>
+              Professionnellement, j'évolue dans le domaine du développement web, où je conçois et implémente des solutions interactives et à la pointe. Cette expérience me permet de maîtriser les langages de programmation modernes, les cadres de développement et les pratiques de conception UX/UI, tout en consolidant mes compétences en gestion de projet et en collaboration d'équipe. Toujours en quête d'amélioration, je vise à enrichir constamment mon expertise tout en partageant ma passion pour la création d'applications web dynamiques et conviviales.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">Qu'est-ce que je fais</h3>
+            <div class="container">
+              <!-- Première ligne pour les deux premiers éléments de service -->
+              <div class="row mb-4 d-flex align-items-stretch">
+                <!-- Première carte de service : Développement Frontend -->
+                <div class="col-md-6 mb-4">
+                  <div class="service-item d-flex h-100">
+                    <div class="service-icon-box mr-3">
+                      <img
+                        src="./assets/images/icon-dev.svg"
+                        alt="icone de développement frontend"
+                        width="40"
+                      />
+                    </div>
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title mb-3">
+                        Développement Web Frontend
+                      </h4>
+                      <p class="service-item-text">
+                        Je me spécialise dans le développement Web Front-End,
+                        utilisant
+                        <b>HTML, CSS, Bootstrap, JavaScript et React.js</b>
+                        pour développer des sites réactifs et accessibles qui
+                        améliorent l’expérience utilisateur.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Deuxième carte de service : Développement Backend -->
+                <div class="col-md-6 mb-4">
+                  <div class="service-item d-flex h-100">
+                    <div class="service-icon-box mr-3">
+                      <img
+                        src="./assets/images/icon-dev.svg"
+                        alt="icone de développement backend"
+                        width="40"
+                      />
+                    </div>
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title mb-3">
+                        Développement Web Backend
+                      </h4>
+                      <p class="service-item-text">
+                        Expert en développement Web Backend, je conçois avec une
+                        maîtrise des technologies telles que
+                        <b>PHP, Node.js, .NET, et bases de données SQL/NoSQL</b
+                        >, garantissant ainsi performance et intégration fluide
+                        avec les interfaces frontales.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Deuxième ligne pour le troisième et le quatrième élément de service -->
+              <div class="row mb-4 d-flex align-items-stretch">
+                <!-- Quatrième carte de service : Développement WordPress -->
+                <div class="col-md-6 mb-4">
+                  <div class="service-item d-flex h-100">
+                    <div class="service-icon-box mr-3">
+                      <img
+                        src="./assets/images/icon-wp.png"
+                        alt="icone de développement WordPress"
+                        width="40"
+                      />
+                    </div>
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title mb-3">
+                        Développement WordPress
+                      </h4>
+                      <p class="service-item-text">
+                        Expérimenté en création de thèmes et en développement de
+                        plugins pour WordPress, j'utilise divers outils et
+                        technologies, y compris
+                        <b>PHP, JavaScript, HTML, CSS et Bootstrap</b>, pour
+                        créer des sites Web WordPress sur mesure et performants.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Troisième carte de service : Business Intelligence -->
+                <div class="col-md-6 mb-4">
+                  <div class="service-item d-flex h-100">
+                    <div class="service-icon-box mr-3">
+                      <img
+                        src="./assets/images/icon-bi.png"
+                        alt="icone de business intelligence"
+                        width="40"
+                      />
+                    </div>
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title mb-3">
+                        Business Intelligence
+                      </h4>
+                      <p class="service-item-text">
+                        Compétent en Business Intelligence et analytique de
+                        données, je transforme des données complexes en insights
+                        actionnables grâce à <b>Power BI Desktop</b>, en créant
+                        des tableaux de bord dynamiques et des rapports
+                        interactifs qui supportent les décisions stratégiques en
+                        entreprise.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <!-- <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Daniel lewis
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Jessica miller
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Emily evans
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Henry william
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section> -->
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <!-- <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div> -->
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <!-- <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-1-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-2-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-3-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-4-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-5-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-6-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul> -->
+          </section>
+        </article>
+
+        <!--
+        - #RESUMé
+      -->
+
+        <article class="resume" data-page="resumé">
+          <header>
+            <h2 class="h2 article-title">Resumé</h2>
+          </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Ecole Sup Privée d'Ingénierie et de Technologies ESPRIT
+                </h4>
+
+                <p class="timeline-text">
+                  Cycle d'ingénieur en informatique (cours du soir)
+                  <span>Actuellement</span>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Faculté des Sciences Economiques et de Gestion De Tunis FSEGT
+                </h4>
+
+                <p class="timeline-text">
+                  Business Intelligence <span>2020 - 2022</span>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  L'Institut supérieur d'informatique de Mahdia ISIMA
+                </h4>
+
+                <p class="timeline-text">
+                  Business Computing <span>2019 - 2020</span>
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Lycée Bardo</h4>
+
+                <p class="timeline-text">
+                  Baccalauréat en Sciences Techniques <span>2018 - 2019</span>
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <img src="./assets/images/experIcon.png" alt="Expérience Icon">
+              </div>
+              
+              <h3 class="h3">Expérience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Triweb</h4>
+
+                <span>01/2023- Actuellement</span>
+
+                <p class="timeline-text">
+                  En tant que développeur <b>Web front-end et back-end </b>à
+                  Triweb, j’emploie une gamme étendue de technologies, incluant
+                  HTML, CSS, JavaScript, PHP, React.js, .NET, Node.js, ainsi que
+                  les systèmes de gestion de base de données MongoDB et SQL
+                  Server. Spécialisé aussi dans le développement
+                  <b>WordPress</b>, je maîtrise l’utilisation des différents
+                  plugins et thèmes et me consacre à la
+                  <b>création de plugins</b> sur mesure.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Transcom</h4>
+
+                <span> 08/2022 - 12/2022 </span>
+
+                <p class="timeline-text">Conseiller bancaire à Paypal</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Assurance COMAR (PFE)</h4>
+                <span>01/2022 - 06/2022</span>
+                <p class="timeline-text">
+                  J'ai mené une analyse approfondie des performances techniques
+                  du programme de réassurance, en exploitant
+                  <b>Power BI Desktop</b>
+                  pour en extraire des insights clés et élaborer des tableaux de
+                  bord interactifs qui ont optimisé la prise de décision
+                  stratégique.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Stradivarius</h4>
+                <span>06/2021 - 08/2021</span>
+                <p class="timeline-text">Conseiller de vente</p>
+              </li>
+            </ol>
+    
+
+        </article>
+
+      
+        <!--
+        - #Compétences
+      -->
+
+        <article class="compétences" data-page="compétences">
+          <header>
+            <h2 style="font-size: x-large;" class="h2 article-title">Compétences</h2>
+          </header>
+ 
+
+          <section class="skill py-5">
+            <h3 class="h3 skills-title text-center mb-4">Mes compétences</h3>
+          
+            <div class="container">
+              <div class="row">
+                <div class="col-12 text-center mb-4">
+                  <h7 class="skills-title mb-4">Web</h7>
+                </div>
+          
+                <!-- Compétences "Web" -->
+                <div class="row mb-5 justify-content-center">
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">HTML</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">CSS</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">JavaScript</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">PHP</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">Bootstrap</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">React Js</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">Node Js</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">C# .NET</h6>
+                      </div>
+                    </div>
+         
+                </div> <!-- Fin compétences "Web" -->
+          
+                <div class="col-12 text-center mb-4">
+                  <h7 class="skills-title mb-4">Base de données</h7>
+                </div>
+          
+                <!-- Compétences "Base de données" -->
+                <div class="row mb-5 justify-content-center">
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">NoSQL</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">Mongo DB</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">SQL Server</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">phpMyAdmin</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">Power BI Desktop</h6>
+                      </div>
+                    </div>
+                  
+                </div> <!-- Fin compétences "Base de données" -->
+          
+                <div class="col-12 text-center mb-4">
+                  <h7 class="skills-title mb-4">Programmation</h7>
+                </div>
+          
+                <!-- Compétences "Programmation" -->
+                <div class="row mb-5 justify-content-center">
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">Python</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">Java</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">C</h6>
+                      </div>
+                    </div>
+                  </div>
+               <!-- Fin compétences "Programmation" -->
+          
+                <div class="col-12 text-center mb-4">
+                  <h6 class="skills-title mb-4">Autres</h6>
+                </div>
+          
+                <!-- Compétences "Autres" -->
+                <div class="row mb-5 justify-content-center">
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">UML</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">Odoo</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">Microsoft Office</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">Photoshop</h6>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-custom mb-3">
+                    <div class="card skill-card px-2 py-2">
+                      <div class="card-body p-2">
+                        <h6 class="card-title mb-0 text-center">Filmora</h6>
+                      </div>
+                    </div> </div> </div> </div></div>
+          
+          
+                 
+                <!-- Fin compétences "Autres" -->
+              </div> <!-- Fin container compétences -->
+            </div> <!-- Fin section compétences -->
+          
+            <!-- Section Langues -->
+            <section>
+              <h3 class="h3 skills-title text-center">Mes Langues</h3>
+          
+              <ul class="skills-list content-card text-center">
+                <li class="skills-item">
+                  <h5 class="h5">Arabe</h5>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 100%"></div>
+                  </div>
+                </li>
+          
+                <li class="skills-item">
+                  <h5 class="h5">Français</h5>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%"></div>
+                  </div>
+                </li>
+          
+                <li class="skills-item">
+                  <h5 class="h5">Anglais</h5>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 60%"></div>
+                  </div>
+                </li>
+              </ul>
+            </section> <!-- Fin section Langues -->
+          </section> <!-- Fin section globale compétences et langues -->
+</article>
+
+
+
+
+  <!--
+        - #PROJETS
+      -->
+
+      <article class="projets" data-page="projets">
+        <header>
+          <h2 class="h2 article-title">Projets</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Tous</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Development Web</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Wordpress</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>Tous</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Development Web</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Wordpress</button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- <ul class="project-list">
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="Development Web"
+            >
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/project-1.jpg"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="Development Web"
+            >
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/project-2.png"
+                    alt="orizon"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="web design"
+            >
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/project-3.jpg"
+                    alt="fundo"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="applications"
+            >
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/project-4.png"
+                    alt="brawlhalla"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="web design"
+            >
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/project-5.png"
+                    alt="dsm."
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="web design"
+            >
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/project-6.png"
+                    alt="metaspark"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="web development"
+            >
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/project-7.png"
+                    alt="summary"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="applications"
+            >
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/project-8.jpg"
+                    alt="task manager"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="web development"
+            >
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/project-9.png"
+                    alt="arrival"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+          </ul> -->
+        </section>
+      </article>
+
+
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29515.638011172974!2d10.125876799959794!3d36.833902357087496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd331066adebc1%3A0x99fb50001c7ca67e!2sEl%20Omrane%20sup%C3%A9rieur%2C%20Tunis!5e0!3m2!1sfr!2stn!4v1704654046013!5m2!1sfr!2stn"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+          
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Formulaire de contact</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Nom et prénom"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Adresse e-mail"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Votre message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Envoyer</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
